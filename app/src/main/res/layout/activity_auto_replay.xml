@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/permissionToast"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:gravity="center|start"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/black"
+            android:text="Notification Access Permission is Disabled"/>
+
+        <TextView
+            android:id="@+id/enable"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="15sp"
+            android:gravity="center|end"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginEnd="10dp"
+            android:text="Enable"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reply_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:elevation="6dp"
+        app:backgroundTint="@color/colorAccent"
+        app:pressedTranslationZ="12dp"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_black_24dp" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/test_banner"/>
+
+</FrameLayout>

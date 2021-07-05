@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:background="@color/lightGrey"
+    android:orientation="vertical">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        fab:menu_fab_size="normal"
+        fab:menu_showShadow="true"
+        fab:menu_shadowColor="#66000000"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="3dp"
+        fab:menu_colorNormal="#673ab7"
+        app:menu_colorNormal="#673ab7"
+        app:menu_colorPressed="@color/colorPrimary"
+        fab:menu_animationDelayPerItem="50"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_paddingTop="4dp"
+        fab:menu_labels_paddingRight="8dp"
+        fab:menu_labels_paddingBottom="4dp"
+        fab:menu_labels_paddingLeft="8dp"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_textColor="#FFFFFF"
+        fab:menu_labels_textSize="14sp"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_colorNormal="#333333"
+        fab:menu_labels_colorPressed="#444444"
+        fab:menu_labels_colorRipple="#66FFFFFF"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_position="left"
+        fab:menu_openDirection="up"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_fab_label="your_label_here"
+        android:layout_above="@id/adView">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/download_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_file_download_black_24dp"
+            fab:fab_size="mini"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_label="Download" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/share_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share_black_24dp"
+            fab:fab_size="mini"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_label="Share"  />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/delete_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete_black_24dp"
+            fab:fab_size="mini"
+            app:fab_colorPressed="@color/colorPrimary"
+            app:fab_colorNormal="@color/colorPrimary"
+            app:fab_label="Delete"  />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/test_banner"/>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

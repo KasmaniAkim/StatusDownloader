@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".controller.access.ui.activity.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/how_to_use"
+        android:icon="@drawable/how_to_use"
+        android:title="How To Use"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/other"
+        android:title="Other Apps Notifications"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/disclaimer"
+        android:icon="@drawable/ic_error_black_24dp"
+        android:title="Disclaimer"
+        app:showAsAction="never"/>
+
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "939942941015",
+    "firebase_url": "https://watools-5d5d0.firebaseio.com",
+    "project_id": "watools-5d5d0",
+    "storage_bucket": "watools-5d5d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939942941015:android:f47769f3d37fac24c5ee12",
+        "android_client_info": {
+          "package_name": "com.HashTagApps.WATool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939942941015-0s9tqgj2l9q7ndccmngh7t30j3831tof.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.HashTagApps.WATool",
+            "certificate_hash": "efbf3d23e77e272d3d7d704b07615453001a909e"
+          }
+        },
+        {
+          "client_id": "939942941015-e3c6djqsvnsl0tsuj95quj45o9j3164e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVEWRH8pIvJv57OrP4uNeyug0pzEELKE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939942941015-e3c6djqsvnsl0tsuj95quj45o9j3164e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

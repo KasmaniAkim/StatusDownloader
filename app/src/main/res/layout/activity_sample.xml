@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme.NoActionBar">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sending Message in..."
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:text="08"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="seconds"
+        android:layout_below="@id/hello"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/date_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sec"
+        android:text="15-5-2020, 2:43"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/date_time"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_contact_"/>
+
+    <TextView
+        android:id="@+id/mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/im1"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:text="91 7698310910"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobile_number"
+        android:layout_alignParentEnd="true"
+        android:text="Hello How Are You"
+        android:background="@drawable/message_bg"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:id="@+id/send_now"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send Now"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

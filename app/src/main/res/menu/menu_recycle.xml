@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/multiple_download"
+        android:title="@string/download"
+        android:icon="@drawable/ic_file_download_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/multiple_delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/multiple_share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/how_to_use"
+        android:title="How to Use"
+        android:icon="@drawable/how_to_use"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/select"
+        android:title="@string/select"
+        app:showAsAction="ifRoom"
+        />
+</menu>

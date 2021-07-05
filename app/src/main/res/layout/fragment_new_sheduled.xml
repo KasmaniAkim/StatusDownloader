@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/main_view"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="5"
+                    android:orientation="horizontal">
+
+                    <com.hbb20.CountryCodePicker
+                        android:id="@+id/cpp"
+                        android:layout_width="0dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_height="match_parent"
+                        app:ccp_showFlag="false"
+                        android:layout_weight="1.5" />
+
+                    <EditText
+                        android:id="@+id/phn"
+                        android:inputType="number"
+                        android:hint="@string/phone_number"
+                        android:layout_width="0dp"
+                        android:layout_weight="3.5"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/message"
+                    android:inputType="textMultiLine"
+                    android:layout_marginTop="10dp"
+                    android:hint="@string/message"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/phone_number"/>
+
+                <TextView
+                    android:id="@+id/scheduled_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Schedule on:"
+                    android:layout_centerInParent="true"
+                    android:layout_below="@id/message"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"/>
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/scheduled_on"
+                    android:layout_centerInParent="true"
+                    android:text="10 may 2020"
+                    android:background="@drawable/custom_button"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="20dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="18dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/date"
+                    android:layout_centerInParent="true"
+                    android:text="1:20 pm"
+                    android:background="@drawable/custom_button"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="20dp"
+                    android:layout_marginBottom="18dp"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/send"
+                    android:textColor="@color/white"
+                    android:padding="4dp"
+                    android:background="@drawable/custom_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginStart="12dp"
+                    android:text="Schedule"
+                    android:layout_below="@+id/time"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>

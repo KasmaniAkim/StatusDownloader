@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HowToUseActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="WhatsApp / Telegram Messages are encrypted on your device. WA Tools don’t access your messages directly. The only solution available is to read them from the notifications that you receive, to create a message backup based on your Notifications"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="App Installation"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="1. Install the App"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="2. Allow the app to read notifications to track deleted messages"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deletedmessage1"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deletedmessage2"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="How it Works"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="1. Someone sends you a message"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deletedmessage3"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="2. Then deletes the message"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deletedmessage4"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="3. WA Tools will recover the message and notify you about the same."/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deletedmessage5"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HowToUseActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="1. Check the Status / Story"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="2. Come back to WA Tools App"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="3. Click on the Status you want to save"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/statussaver1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="5dp"
+            android:textAlignment="center"
+            android:text="4. Click on + and then download button"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/statussaver2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="5. Status Image/Story will be saved in your device under Saved Tab"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/statussaver3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="6. You can also select multiple stories to save"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/statussaver4"/>
+
+    </LinearLayout>
+</ScrollView>

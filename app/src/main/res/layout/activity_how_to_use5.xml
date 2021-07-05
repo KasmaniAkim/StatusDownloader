@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:text="WA Schedule Message does not use any official API to send scheduled message. We use automation of your local device to schedule and send the message for you"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:text="Things to Remember:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_gravity="center"
+            android:text="@string/value1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:text="2. Give Accessibility Permission in order to enable us to send your scheduled message"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image1"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

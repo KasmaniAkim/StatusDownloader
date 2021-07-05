@@ -1,0 +1,84 @@
+<resources>
+    <plurals name="itemAmount">
+        <item quantity="zero">%d items</item>
+        <item quantity="one">1 item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <string name="copy_right" translatable="false">Copyrights © %1$d</string>
+    <string name="app_name">WA Tools</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="videos">Videos</string>
+    <string name="no_status_available">No Status Available</string>
+
+    <string name="images">Images</string>
+    <string name="phone_number_input">Enter the mobile number you want to initiate the chat</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="message_on_whatsapp">Message on whatsApp</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="clear">Clear</string>
+    <string name="close">Close</string>
+    <string name="download">Download</string>
+    <string name="share">Share</string>
+    <string name="select">Select</string>
+    <string name="a">|</string>
+    <string name="received_message">Received Message</string>
+    <string name="send_message">Send Message</string>
+    <string name="done">Done</string>
+    <string name="send">Send</string>
+    <string name="your_message">Your Message</string>
+    <string name="whatsapp_utils">WhatsApp Utils</string>
+    <string name="receive">Receive :</string>
+    <string name="send1">Send :</string>
+    <string name="note">(along with country code)</string>
+    <string name="delete">Delete</string>
+    <string name="message">Message</string>
+    <string name="channel_name">WATools</string>
+    <string name="channel_description">WATools</string>
+    <string name="gallery_cleaner">Gallery Cleaner</string>
+    <string name="clear_selected_data">Clear Selected Data</string>
+
+    <string name="received">Received</string>
+    <string name="whatsapp_gallery">WhatsApp Gallery</string>
+    <string name="sort">Sort</string>
+    <string name="pick_from_contact">Pick Contact</string>
+    <string name="whatsapp_suffix">by WATools</string>
+
+    <string name="_300">300</string>
+    <string name="date">date</string>
+    <string name="name">NAME</string>
+    <string name="search">Search....</string>
+
+    <string name="admob_app_id">ca-app-pub-2947732669771489~2659569119</string>
+
+    <!--    Test Ads-->
+<!--    <string name="test_banner">ca-app-pub-3940256099942544/6300978111</string>-->
+
+
+    <string name="test_banner">ca-app-pub-2947732669771489/4610482012</string>
+
+    <string name="disclaimer_title">WA Tools <b>does not send your information to external servers</b> ,they’re only on your own phone. WA Tools will also not save all notifications, only those whose applications you manually select.</string>
+    1<string name="disclaimer_title2">WA Tools <b>wont work in the following cases:</b></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="value1">1. <b>Remove Screen Lock</b> so that your scheduled message can be sent when your screen is off</string>
+    <string name="accessibility_service_description">need accessibility service to scheduled message</string>
+
+    <string name="disclaimer">WA Whats Delete is a backup app.
+        it is designed to provide backup services for your notifications using common Android APIs to achieve this.
+        This app is not designed to interfere with other apps and services on your device.
+        However the use of WA Whats Delete may be incompatible with the Terms of Use of other apps on your device.
+        If this type of incompatibility occurs, you shall not use this App.</string>
+
+</resources>
